@@ -12,7 +12,7 @@ export class AppComponent {
 
 	constructor(private http:Http) {
 		this.http.get('http://localhost:7000/plato') //'./assets/data.json'
-			.map(response => response.json().screenshots)
+			.map(response => response.json())
 			.subscribe(res => this.spaceScreens = res);
 	}
 
