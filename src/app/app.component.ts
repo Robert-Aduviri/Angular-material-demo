@@ -11,7 +11,7 @@ export class AppComponent {
 	spaceScreens: Array<any>;
 
 	constructor(private http:Http) {
-		this.http.get('./assets/data.json')
+		this.http.get('http://200.16.7.160:7000/plato') //'./assets/data.json'
 			.map(response => response.json().screenshots)
 			.subscribe(res => this.spaceScreens = res);
 	}
