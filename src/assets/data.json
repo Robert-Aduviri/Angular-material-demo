@@ -1,0 +1,19 @@
+{
+  "screenshots": [
+      {
+        "img": "http://www.earlofsandwichusa.com/wp-content/uploads/2016/05/Sandwich_Chipotle-Chicken-Avocado-min.jpg",
+        "description": "Sandwich",
+        "liked": "0"
+      },
+      {
+        "img": "https://karmelowy.pl/wp-content/uploads/2013/01/sr77.jpg",
+        "description": "Maki",
+        "liked": "0"
+      },
+      {
+        "img": "http://omgchocolatedesserts.com/wp-content/uploads/2016/05/Strawberry-Chocolate-Cake-1.jpg",
+        "description": "Cake",
+        "liked": "0"
+      }
+  ]
+}
